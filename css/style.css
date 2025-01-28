@@ -1,6 +1,7 @@
 /* General Styles */
 body {
     margin: 0;
+    background-color: gray;
 }
 
 /* Nav Styles */
@@ -9,10 +10,11 @@ nav {
     color: #BA0C2F;
     display: flex;
     justify-content: space-evenly ;
+
 }
 
 nav p, nav a {
-
+    place-content: center;
 }
 
 nav a {}
@@ -33,6 +35,12 @@ footer a:hover {}
 
 /* Splash Section */
 .splash {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    text-align: center;
+    justify-items: center;
+    padding: 20pt;
 
 }
 
@@ -41,21 +49,25 @@ footer a:hover {}
     font-family: "Smooch Sans", serif;
     font-size:xx-large;
     color: #BA0C2F;
+    
 }
 
 .splash img {
     border: #000000;
     border-radius: 10pt;
+    align-items: end;
+    
 }
 
 .splash p {
     color: #BA0C2F;
     font-size: medium;
+    flex-grow: 1;
 }
 
 /* Horizontal Rules */
 hr {
-    border: 10pt solid #000000;
+    border: 5pt solid #000000;
     border-radius: 10pt;
 }
 
