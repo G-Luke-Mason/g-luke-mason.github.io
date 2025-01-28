@@ -8,7 +8,7 @@ nav {
     background-color: #000000;
     color: #BA0C2F;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly ;
 }
 
 nav p, nav a {
@@ -69,6 +69,7 @@ section {
 section h2 {font: "Montserrat";
     font-family: "Montserrat", serif;
     font-size: 150%;
+    color: #BA0C2F;
 }
 
 /* Paragraph Styles */
@@ -88,7 +89,8 @@ section a:hover {
 ul {list-style-type: square;}
 
 dl {display: grid;
-grid-template-columns: auto auto auto;}
+align-content: center;
+grid-template-columns: auto auto;}
 dl dt{}
 dl dd{}
 
@@ -105,7 +107,6 @@ dl dd{}
     border: 1px solid #ddd; 
     border-radius: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    overflow: hidden; 
     text-align: center; 
     display: flex;
     flex-direction: column;
@@ -114,7 +115,6 @@ dl dd{}
 .card img {
     width: 100%; 
     height: auto; 
-    object-fit: cover;
     border-bottom: 1px solid #ddd; }
 
 .card h3 {font: "Montserrat";
@@ -151,7 +151,7 @@ form input, form textarea {
 
 form input:focus, form textarea:focus {}
 
-form button {  background-color: #0056b3;
+form button {  background-color: #BA0C2F;
 }
 
 form button:hover {}
